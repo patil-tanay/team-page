@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import "./../Assets/css/team.css";
 import Ankur from "../Assets/img/demoo.jpg";
 import linkedIn from "../Assets/img/linkedin.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
-AOS.init();
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// AOS.init();
 export default class Teams extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
