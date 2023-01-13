@@ -1,15 +1,14 @@
 .teamlanding {
     background-image: url(../../Assets/img/gdscAITRlogo.png);
-    height: 100vh;
-  
-    /* Center and scale the image nicely */
+    height: 48vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
-  }
+}
   
   .first-title {
     font-family: "GoogleSans-Bold" !important;
@@ -34,18 +33,14 @@
   /*make responsive*/
   @media screen and (max-width: 600px) {
     .teamlanding {
-      background-image: url(../../Assets/img/teamgame.png);
-      height: 100vh;
-  
-      /* Center and scale the image nicely */
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  
-  
+      background-image: url(../../Assets/img/gdscAITRlogo.png);
+      height: 32vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
     }
   }
   
@@ -123,6 +118,4 @@
 
   h2 {
     text-align: center;
-    padding-top: 592px;
-
   }
