@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./../Assets/css/team.css";
-import Ankur from "../Assets/img/demoo.jpg";
+import teamp from "../Assets/img/demoo.jpg";
 import linkedIn from "../Assets/img/linkedin.png";
 // import AOS from "aos";
 // import "aos/dist/aos.css";
@@ -252,10 +252,11 @@ export default class Teams extends Component {
         {/*left right section */}
         <div className="teamlanding"  data-aos-delay="600">
         
-            <h2>
+           
+        </div>
+        <h2>
               <b>Meet Our Team 2022-2023</b>
             </h2>
-        </div>
         {/*team section */}
         {/* Faculty Coordinators */}
         <div className="Heading text-center" data-aos="fade-up">
@@ -300,7 +301,7 @@ export default class Teams extends Component {
         <div className="teamsCardContainer mt-5" data-aos="fade-up">
           <div class="teamCard">
             <div style={{ height: "40px" }}>
-              <img class="teamImage" alt="" src={Ankur} />
+              <img class="teamImage" alt="" src={teamp} />
             </div>
             <h5
               class="MuiTypography-root mt-5 jss7 MuiTypography-h4 team-heading MuiTypography-alignCenter"
@@ -316,13 +317,7 @@ export default class Teams extends Component {
               GDSC Lead
             </span>
 
-            <div class="MuiCardActions-root MuiCardActions-spacing margin-2">
-              <button class="connect-btn">
-                <a href="https://www.linkedin.com/in/ankurg132" target="_blank">
-                  <img src={linkedIn} className="connect-icon" />
-                </a>
-              </button>
-            </div>
+           
           </div>
         </div>
 
@@ -332,7 +327,7 @@ export default class Teams extends Component {
         <div className="teamsCardContainer mt-5" data-aos="fade-up">
           <div class="teamCard">
             <div style={{ height: "40px" }}>
-              <img class="teamImage" alt="" src={Ankur} />
+              <img class="teamImage" alt="" src={teamp} />
             </div>
             <h5
               class="MuiTypography-root mt-5 jss7 MuiTypography-h4 team-heading MuiTypography-alignCenter"
@@ -348,13 +343,7 @@ export default class Teams extends Component {
               GDSC Co-Lead
             </span>
 
-            <div class="MuiCardActions-root MuiCardActions-spacing margin-2">
-              <button class="connect-btn">
-                <a href="https://www.linkedin.com/in/ankurg132" target="_blank">
-                  <img src={linkedIn} className="connect-icon" />
-                </a>
-              </button>
-            </div>
+            
           </div>
         </div>
         {/* Leads */}
