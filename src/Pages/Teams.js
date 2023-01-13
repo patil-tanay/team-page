@@ -316,7 +316,13 @@ export default class Teams extends Component {
             >
               GDSC Lead
             </span>
-
+            <div class="MuiCardActions-root MuiCardActions-spacing margin-2">
+              <button class="connect-btn">
+                <a href="https://www.linkedin.com/in/khushigandhi27" target="_blank">
+                  <img src={linkedIn} className="connect-icon" />
+                </a>
+              </button>
+            </div>
            
           </div>
         </div>
@@ -342,7 +348,13 @@ export default class Teams extends Component {
             >
               GDSC Co-Lead
             </span>
-
+            <div class="MuiCardActions-root MuiCardActions-spacing margin-2">
+              <button class="connect-btn">
+                <a href="https://www.linkedin.com/in/moheshaa-bajpai-9479311a9" target="_blank">
+                  <img src={linkedIn} className="connect-icon" />
+                </a>
+              </button>
+            </div>
             
           </div>
         </div>
