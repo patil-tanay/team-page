@@ -14,21 +14,6 @@
     font-family: "GoogleSans-Bold" !important;
   }
 
-  .G {
-    color: #ea4335;
-  }
-  
-  .D {
-    color: #4285f4;
-  }
-  
-  .S {
-    color: #0f9d58;
-  }
-  
-  .C {
-    color: #fbbc04;
-  }
   
   /*make responsive*/
   @media screen and (max-width: 600px) {
@@ -69,18 +54,18 @@
   }
   
   .teamCard {
-    margin: 5rem 0;
-    width: 280px;
-    height: 235px;
     background-image: url(../../Assets/img/bg3.png);
+   background-position: 50%;
     background-size: cover;
-    background-position: center;
     border-radius: 32px;
-    padding: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 185px;
     justify-content: flex-start;
+    margin: 5rem 0;
+    padding: 5rem;
+    width: 253px;
+}
     /* box-shadow: rgb(149 157 165 / 0%) 0px 8px 24px; */
   }
   .teamImage {
