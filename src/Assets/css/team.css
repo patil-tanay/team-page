@@ -51,6 +51,7 @@
   
   .margin-1 {
     margin-top: 1rem;
+    text-align: center;
   }
   
   .teamCard {
@@ -73,11 +74,13 @@
     width: 120px;
     border-radius: 50%;
     border: solid 1px black;
+    left: 60px;
     box-shadow: 0 8px 40px -12px rgba(0, 0, 0, 0.3);
   }
   
   .team-heading {
     font-size: 1.4rem;
+    text-align: center;
   }
   
   .connect-btn {
