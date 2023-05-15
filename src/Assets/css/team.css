@@ -53,8 +53,21 @@
     margin-top: 1rem;
     text-align: center;
   }
-  
   .teamCard {
+    background-image: url(../../Assets/img/bg3.png); 
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    height: 183px;
+    justify-content: flex-start;
+    margin: 5rem 0;
+    padding: 3rem;
+    width: 186px;
+          /* box-shadow: rgb(149 157 165 / 0%) 0px 8px 24px; */
+}
+/*   .teamCard {
     background-image: url(../../Assets/img/bg3.png);
    background-position: 50%;
     background-size: cover;
@@ -67,7 +80,7 @@
     padding: 5rem;
     width: 253px;
     /* box-shadow: rgb(149 157 165 / 0%) 0px 8px 24px; */
-  }
+
   .teamImage {
     position: relative;
     bottom: 100px;
